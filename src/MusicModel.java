@@ -19,9 +19,9 @@ public class MusicModel {
 	
 	public MusicModel() {
 		mediaMap  = new LinkedHashMap<>();
-		addSong("try this", "try_this.wav", false);
-		addSong("chimu no jiriki", "chimu_no_jiriki.wav", false);
-		setCurrentView("try this"); //default song
+		addSong("A Fight Away - Censation", "a_fight_away.wav", false);
+		addSong("Perserverence - Censation", "perserverence.wav", false);
+		setCurrentView("A Fight Away - Censation"); //default song
 	}
 	public void addSong(String title, String fileName, boolean external) {
 		if(mediaMap.containsKey(title))return; //already have this song :[
